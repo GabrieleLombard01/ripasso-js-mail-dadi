@@ -7,7 +7,7 @@
 */
 
 // Recupero gli elementi dal DOM
-const emailInput = document.getElementById('input');
+const emailInput = document.getElementById('email');
 const button = document.querySelector('button');
 const message = document.getElementById('message');
 
@@ -17,4 +17,17 @@ const allowedEmails = ['marco@boolean.it', 'luca@boolean.it', 'matteo@boolean.it
 // Al click sul Button...
 button.addEventListener('click', function(){
 
+    // Preparo il messaggio
+    let result;
+
+    // Raccolgo il valore dell'input
+    const userEmail = emailInput.value.trim(); 
+
+    // Giro per tutte le mail della lista
+    for(let i = 0; i < allowedEmails.length; i++){
+        
+    }
+
+    // Stamperò il messaggio
+    message.innerText = result;
 });
