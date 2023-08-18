@@ -13,3 +13,8 @@ const message = document.getElementById('message');
 
 // Preparo una lista di mail "autorizzate"
 const allowedEmails = ['marco@boolean.it', 'luca@boolean.it', 'matteo@boolean.it', 'gabriele@boolean.it'];
+
+// Al click sul Button...
+button.addEventListener('click', function(){
+
+});
